@@ -1,0 +1,41 @@
+#---- Application Specific
+/cfc/static/built
+
+#---- Environments
+!/x-dev/environments/
+/x-dev/environments/*
+!/x-dev/environments/SAMPLE/
+.env
+env/
+ENV/
+env.bak/
+
+#---- Python
+__pycache__/
+__pypackages__/
+*.py[cod]
+*$py.class
+*.so
+.venv
+venv/
+venv.bak/
+
+#---- Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+#---- Node/NPM
+node_modules/
+
+#---- IDE: Jetbrains / Intellij
+# See .idea/.gitignore
+#---- IDE: VSCode
+.vscode/**/*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets

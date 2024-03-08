@@ -1,0 +1,9 @@
+
+wagtail
+
+django-allauth
+django-storages
+
+# -------- Development --------
+django-debug-toolbar
+ruff
